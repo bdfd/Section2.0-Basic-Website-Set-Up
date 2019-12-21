@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about');
+  res.render('about', { layout: 'Passcode_layout' });
 });
 
 module.exports = router;
