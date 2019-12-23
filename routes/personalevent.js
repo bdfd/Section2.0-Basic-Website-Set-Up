@@ -1,0 +1,18 @@
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/2019', function(req, res, next) {
+    res.render('personal_event/2019');
+});
+
+router.get('/2020', function(req, res, next) {
+    res.render('personal_event/2020');
+});
+
+
+router.get('/2021', function(req, res, next) {
+    res.render('personal_event/2021');
+});
+
+module.exports = router;
