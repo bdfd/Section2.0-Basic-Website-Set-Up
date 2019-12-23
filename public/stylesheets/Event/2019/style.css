@@ -92,42 +92,42 @@ body{
 
 
 .wrapper .content .item:nth-of-type(1) .inner .bjPic{
-    background-image: url("../img/132.jpg");
+    background-image: url("/images/Event/2019/那一瞬.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(2) .inner .bjPic{
-   background-image: url("../img/133.jpg");
+   background-image: url("/images/Event/2019/那一刻.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(3) .inner .bjPic{
-   background-image: url("../img/134.jpg");
+   background-image: url("/images/Event/2019/那一日.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(4) .inner .bjPic{
-   background-image: url("../img/135.jpg");
+   background-image: url("/images/Event/2019/那一夜.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(5) .inner .bjPic{
-    background-image: url("../img/136.jpg");
+    background-image: url("/images/Event/2019/那一天.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(6) .inner .bjPic{
-    background-image: url("../img/137.jpg");
+    background-image: url("/images/Event/2019/那一月.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(7) .inner .bjPic{
-     background-image: url("../img/130.jpg");
+     background-image: url("/images/Event/2019/那一年.jpg");
     background-size: cover;
     background-position: center;
 }
 .wrapper .content .item:nth-of-type(8) .inner .bjPic{
-    background-image: url("../img/139.jpg");
+    background-image: url("/images/Event/2019/那一世.jpg");
     background-size: cover;
     background-position: center;
 }

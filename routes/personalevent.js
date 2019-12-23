@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/2019', function(req, res, next) {
-    res.render('personal_event/2019');
+    res.render('personal_event/2019', { layout: 'HP_Event2019'});
 });
 
 router.get('/2020', function(req, res, next) {
