@@ -12,6 +12,10 @@ var cors = require('cors');
 
 var indexRouter = require('./routes/index');
 var bdfdRouter = require('./routes/bdfd');
+var psintroRouter = require('./routes/personalintro');
+var psexpRouter = require('./routes/personalexperience');
+var pspjRouter = require('./routes/personalproject');
+var pseventRouter = require('./routes/personalevent');
 
 var app = express();
 
@@ -34,6 +38,11 @@ app.use(cors());
 
 app.use('/', indexRouter);
 app.use('/bdfd', bdfdRouter);
+app.use('/personalintro', psintroRouter);
+app.use('/personalexperience', psexpRouter);
+app.use('/personalproject', pspjRouter);
+app.use('/personalevent', pseventRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
