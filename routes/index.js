@@ -10,4 +10,12 @@ router.get('/about', function(req, res, next) {
   res.render('about', { layout: 'Passcode_layout' });
 });
 
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { layout: 'Passcode_layout' });
+});
+
+router.get('/msg', function(req, res, next) {
+  res.render('message', { layout: 'Passcode_layout' });
+});
+
 module.exports = router;
