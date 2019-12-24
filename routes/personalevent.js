@@ -7,7 +7,7 @@ router.get('/2019', function(req, res, next) {
 });
 
 router.get('/2019/1031', function(req, res, next) {
-    res.render('personal_event/20191031');
+    res.render('personal_event/20191031',{ layout: 'Empty_layout'});
 });
 
 router.get('/2020', function(req, res, next) {
