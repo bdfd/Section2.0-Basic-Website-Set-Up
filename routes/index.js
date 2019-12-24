@@ -7,15 +7,15 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { layout: 'Passcode_layout' });
+  res.render('about', { layout: 'Empty_layout' });
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { layout: 'Passcode_layout' });
+  res.render('contact', { layout: 'Empty_layout' });
 });
 
 router.get('/msg', function(req, res, next) {
-  res.render('message', { layout: 'Passcode_layout' });
+  res.render('message', { layout: 'Empty_layout' });
 });
 
 module.exports = router;
