@@ -14,6 +14,10 @@ router.get('/2019/1208', function(req, res, next) {
     res.render('personal_event/2019/20191208',{ layout: 'Empty_layout'});
 });
 
+router.get('/2019/1226', function(req, res, next) {
+    res.render('personal_event/2019/20191226',{ layout: 'Empty_layout'});
+});
+
 router.get('/2020', function(req, res, next) {
     res.render('personal_event/2020');
 });
